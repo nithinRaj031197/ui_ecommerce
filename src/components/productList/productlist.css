@@ -1,0 +1,5 @@
+.main_productlist {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 8px;
+}

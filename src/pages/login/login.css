@@ -1,0 +1,61 @@
+.login_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login_card {
+  margin-top: 100px;
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: 5px 8px 21px -4px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 5px 8px 21px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px 8px 21px -4px rgba(0, 0, 0, 0.75);
+}
+
+.login_title {
+  text-align: center;
+  margin: 10px 0 5px;
+}
+
+.login_form {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input_field {
+  width: 80%;
+  margin-bottom: 20px;
+  outline: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid black;
+}
+
+.login_button {
+  width: 50%;
+  height: 50px;
+  background-color: blue;
+  outline: none;
+  font-size: 16px;
+  font-weight: bolder;
+  border-radius: 10px;
+  border: 2px solid rgb(71, 63, 63);
+  cursor: pointer;
+  padding: 10px;
+  text-align: center;
+}
+
+.login_button:hover {
+  box-shadow: 5px 5px 15px -8px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 5px 5px 15px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px 5px 15px -8px rgba(0, 0, 0, 0.75);
+}
+
+.login_button:active {
+  background-color: rgb(207, 207, 197);
+}
